@@ -1,0 +1,20 @@
+@media (max-width: 640px) {
+    .find-us-container {
+      padding: 12px;
+    }
+  
+    .find-us-title {
+      font-size: 16px;
+      text-align: center;
+    }
+  
+    .find-us-button {
+      font-size: 14px;
+      padding: 8px 10px;
+    }
+  
+    .find-us-button svg {
+      font-size: 16px;
+    }
+  }
+  
