@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaFacebook, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
 
+
 const FindUs = () => {
     return (
         <div className="p-4 bg-white rounded-lg shadow-md ">

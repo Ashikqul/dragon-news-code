@@ -1,6 +1,6 @@
 import React from 'react';
-import { NavLink } from 'react-router';
-import user from "../../assets/user.png"
+import { Link, NavLink } from 'react-router';
+import rizvi from '../../assets/rizvi.jpg'
 
 const Navber = () => {
     return (
@@ -18,8 +18,9 @@ const Navber = () => {
           <div className="login-btn flex gap-5">
 
             
-            <img src={user}alt="" />
-            <button className='btn btn-primary px-10'>Login</button>
+          <img src={rizvi} class="w-[41px] h-[41px] rounded-full mr-2" alt="" />
+
+          <Link to="/auth/login" className='btn btn-primary px-10'>Login</Link>
           </div>
         </div>
     );
